@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mat1"
+    tools:context=".QuadraticActivity">
+
+    <EditText
+        android:id="@+id/square"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="80dp"
+        android:hint="Enter the coefficient of x^2"/>
+
+    <EditText
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter the coefficient of x"/>
+
+    <EditText
+        android:id="@+id/constant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter the constant"/>
+    <Button
+        android:id="@+id/generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:text="GENERATE" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:ems="10" />
+
+
+
+
+
+
+</LinearLayout>
